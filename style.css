@@ -1,0 +1,221 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+padding: 0;
+margin: 0;
+background: border-box;
+}
+/* ---------------------------------------------------------------top button-------------------------------------- */
+.i_button_top{
+    display: inline-block;
+    color: #fff !important;
+    position: absolute;
+    top: 7px;
+    left: 8px;
+}
+.a_button_top{
+    display: none;
+    background: rgba(0,0,0,0.6);
+    border: 2px solid rgba(255,255,255,0.8);
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    color: #fff;
+    font-size: 22px;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 9999;
+    opacity: .5;
+}
+.a_button_top:hover{
+    background: rgba(24, 24, 24, 0.548);
+    opacity: .5;
+}
+.a_button_top.scrollh{
+    display: block;
+}
+
+/* ----------------------------------------------------------------end top button--------------------------------- */
+/* ------------------------------------------------------------start nav ----------------------------------------- */
+.width{
+    width: 22px;
+}
+.a_nav1.scrolls{
+    color: #000 !important;
+}
+.hover-text:hover{
+    background-color: rgb(97, 226, 97);
+    color: whitesmoke !important;
+}
+.activee{
+    color: rgb(106, 204, 207) !important; 
+}
+.hover-text:focus{
+    background-color: rgb(97, 226, 97);
+    color: whitesmoke !important;
+}
+.bg-color.scrolled{
+    background-color:#fff !important;
+    border-top: 2px solid rgb(97, 226, 97);
+}
+.hover-text.scrolling{
+    color:#000 !important;
+}
+.hover-text.scrolling:hover{
+    color: whitesmoke !important;
+}
+.activee.scroll{
+    background-color: rgb(97, 226, 97);
+    color: whitesmoke !important; 
+}
+.home-nav.scrollm{
+    color: rgb(106, 204, 207) !important; 
+}
+/* -------------------------------------------------------------end nav ------------------------------------------ */
+/* --------------------------------------------------------------start header ------------------------------------ */
+
+.head{
+    background-image: url(img/header.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150vh;
+}
+.blur-head{
+    height: 150vh;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.h2-head{
+    padding-top: 300px;
+    color: whitesmoke;
+    font-size: 50px;
+}
+
+
+
+
+/* ---------------------------------------------------------------end header ------------------------------------- */
+/* ----------------------------------------------------section1--------------------------------------------------- */
+.sec1{
+    border: 0.5px solid #eee;
+}
+.p-sec1{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: rgb(136, 32, 136);
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    line-height: 60px;
+    margin-bottom: 20px;
+margin-left: 20px;
+}
+/* ------------------------------------------------------------------end section1----------------------------------- */
+/* -------------------------------------------------start section2-------------------------------------------------- */
+.icon_box_icon{
+    float: left;
+    margin-left: -65px;
+    margin-top: 23px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: rgb(56, 141, 68);
+    text-align: center;
+    color: #fff;
+    font-size: 22px;
+    line-height: 45px;
+}
+.font-size2{
+    font-size: 35px;
+}
+.section2-head1{
+    padding-left: 31px;
+}
+.form_section2{
+    padding-top: 105px;
+    background-color: black;
+    margin-top: 15px;
+    height: 28pc;
+    width: 30pc;
+    border-radius: 50%;
+    margin-left: -12px;
+}
+.input_section2{
+    width: 20pc;
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid rgb(114, 114, 114);
+    padding-bottom: 5px;
+    padding-top: 15px;
+    color: whitesmoke;
+}
+.button_section2{
+    margin-top: 15px;
+    padding: 13px 30px;
+    background-color: #fff;
+    border-radius: 25px;
+    border: 0;
+}
+.button_section2:hover{
+    background-color: rgb(238, 237, 237);
+}
+/* --------------------------------------------------end section2------------------------------------------ */
+/* ---------------------------------------------------- start section 3 ----------------------------------- */
+.section3_ {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+/* ---------------------------------------------------- end section 3--------------------------------------- */
+
+/* ---------------------------------------------------- start section 4 ----------------------------------- */
+.section4{
+    background-color: rgb(136, 32, 136);
+}
+.input_section4{
+    border: 0;
+    outline: 0;
+    border-radius: 10px;
+    width: 25pc;
+    background-color: #fff;
+}
+.img-section4{
+ width: 100%;
+}
+/* ------------------------------------------------------- end section 4 --------------------------------- */
+/* ------------------------------------------------------- start footer --------------------------------- */
+.button-footer{
+    padding: 8px 18px;
+    border: 2px solid #eee;
+    border-radius: 22px;
+    margin-top: 15px;
+    color: #fff;
+    font-size: 18px;
+}
+.button-footer:hover{
+    background-color: #fff;
+    color: #000;
+}
+.input_footer{
+    border: 0;
+    outline: 0;
+    border-bottom: 0.5px solid rgb(97, 97, 97);
+    color: #fff;
+}
+/* ----------------------------------------------------------end footer -------------------------------- */
